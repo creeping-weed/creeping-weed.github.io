@@ -1,0 +1,416 @@
+#fullpage .section{
+    text-align: center;
+}
+#fullpage .f1{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+#fullpage .f1 .bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+#fullpage .f1 .bg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#fullpage .f1 .text{
+    height: 200px;
+    width: 100%;
+    /*background-color: #fff;*/
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -300px;
+    z-index: 2;
+}
+#fullpage .f1 .text p{
+    height: 200px;
+    line-height: 200px;
+    font-size: 76px;
+    text-align: center;
+}
+#fullpage .f1 .text p span{
+    color: #000;
+    margin: 30px;
+}
+#fullpage .f1 .down{
+    width: 100%;
+    height: 300px;
+    /*background-color: red;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    overflow: hidden;
+
+}
+#fullpage .f1 .down p{
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    font-size: 100px;
+    color: #fff;
+    position: relative;
+    left: 0;
+    top: -200px;
+    opacity: 0.3;
+}
+
+#fullpage .f2{
+    /*background-color: orange;*/
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+#fullpage .f2 .bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    /*overflow: hidden;*/
+}
+#fullpage .f2 .bg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+#fullpage .f2 .text{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    margin-left: -100px;
+    height: 300px;
+    width: 200px;
+    background-color: #ccc;
+    z-index: 2;
+    opacity: 0;
+}
+#fullpage .f2 .text h3{
+    font-size: 34px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    top: 0;
+    left: 2000px;
+}
+#fullpage .f2 .text img{
+
+}
+#fullpage .f2 .text p{
+    height: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    position: relative;
+    top: -800px;
+    left: 0;
+}
+#fullpage .f2 .qq{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    z-index: 3;
+    /*background-color: #fff;*/
+}
+#fullpage .f2 .qq ul{
+    width: 100%;
+    height: 100%;
+}
+#fullpage .f2 .qq ul li{
+    height: 80px;
+    width: 240px;
+    /*background-color: red;*/
+    position: absolute;
+    line-height: 80px;
+    font-size: 26px;
+    color: #fff;
+}
+#fullpage .f2 .qq ul li.l1{
+    /*left: 60%;*/
+    left: 2000px;
+    top: 0;
+}
+#fullpage .f2 .qq ul li.l2{
+    /*right: 60%;*/
+    right: 2000px;
+    top: 0;
+}
+#fullpage .f2 .qq ul li.l1 span{
+    float: left;
+    height: 80px;
+    width: 60px;
+    background: url("../images/qq.png") 0 -102px no-repeat;
+}
+#fullpage .f2 .qq ul li.l2 span{
+    float: left;
+    height: 80px;
+    width: 70px;
+    background: url("../images/qq.png") -96px -102px no-repeat;
+}
+#fullpage .f3{
+    /*background-color: blue;*/
+    overflow: hidden;
+}
+#fullpage .f3 .bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+#fullpage .f3 .bg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#fullpage .f3 .s3_1{
+    height: 650px;
+    width: 650px;
+    background: url("../images/s3_1.png") no-repeat;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    margin-left: -325px;
+    margin-bottom: -250px;
+    z-index: 2;
+    /*opacity: 0.3;*/
+    transition: all 2s 0.5s;
+}
+#fullpage .f3 .s3_1.a{
+    transform: scale(0.01,0.01) rotate(720deg);
+}
+#fullpage .f3 .s3_2{
+    height: 230px;
+    width: 300px;
+    background: url("../images/s3_2.png") no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+    /*opacity: 0.3;*/
+    transition: all 1s;
+}
+#fullpage .f3 .s3_2.a{
+    transform: translate(-350px,-280px);
+}
+#fullpage .f3 .s3_3{
+    height: 230px;
+    width: 300px;
+    background: url("../images/s3_2.png") no-repeat;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    z-index: 3;
+    /*opacity: 0.3;*/
+    transition: all 1s;
+}
+#fullpage .f3 .s3_3.a{
+    transform: translate(-350px,-280px);
+}
+#fullpage .f3 .text3{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    margin-left: -50px;
+    margin-bottom: 25px;
+    z-index: 2;
+    opacity: 0.9;
+    border-radius: 50%;
+    transition: all 2s 2.5s;
+}
+#fullpage .f3 .text3 div{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    transition: all 2s 4.5s;
+}
+#fullpage .f3 .text3 div p{
+    line-height: 50px;
+    font-size: 28px;
+    padding: 0 20px;
+    text-align: center;
+}
+#fullpage .f3 .text3 .p1{
+    top: 0;
+    left: 0;
+    z-index: 3;
+    color: yellow;
+}
+#fullpage .f3 .text3 .p2{
+    top: -220px;
+    left: 0;
+}
+#fullpage .f3 .text3 .p3{
+    top: 0;
+    left: 220px;
+}
+#fullpage .f3 .text3 .p4{
+    top: 220px;
+    left: 0;
+}
+#fullpage .f3 .text3 .p5{
+    top: 0;
+    left: -220px;
+}
+#fullpage .f3 .text3.a{
+    transform: scale(0.1,0.1);
+    opacity: 0;
+}
+#fullpage .f3 .text3 div.a{
+    top: 0;
+    left: 0;
+}
+#fullpage .f4{
+    text-align: left;
+}
+#fullpage .f4 .bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+#fullpage .f4 .bg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#fullpage .f4 .text4{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    height: 200px;
+    width: 600px;
+    margin-left: -400px;
+    /*background-color: pink;*/
+    transition: all 1.5s;
+    z-index: 2;
+}
+#fullpage .f4 .text4.a{
+    left: -600px;
+}
+#fullpage .f4 .text4 h3{
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+#fullpage .f4 .text4 p{
+    margin-left: 20px;
+    line-height: 25px;
+    font-size: 16px;
+}
+#fullpage .f4 .box{
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    height: 230px;
+    width: 800px;
+    margin-left: -400px;
+    z-index: 2;
+    /*background-color: pink;*/
+
+}
+#fullpage .f4 .box ul{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 2s 1.5s;
+}
+#fullpage .f4 .box ul li{
+    height: 30px;
+    width: 800px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+#fullpage .f4 .box ul.a{
+    width: 0;
+}
+#fullpage .f4 .box ul li a{
+    /*display: block;*/
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    color: red;
+}
+#fullpage .f4 .box ul li span{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+}
+#fullpage .f4 .box ul li.l1 span{
+    background-color: #00ffff;
+    width: 80%;
+}
+#fullpage .f4 .box ul li.l2 span{
+    background-color: red;
+    width: 75%;
+}
+#fullpage .f4 .box ul li.l3 span{
+    background-color: green;
+    width: 65%;
+}
+#fullpage .f4 .box ul li.l4 span{
+    background-color: blue;
+    width: 60%;
+}
+#fullpage .f4 .box ul li.l5 span{
+    background-color: yellow;
+    width: 49%;
+}
+#fullpage .f5{
+    overflow: hidden;
+}
+#fullpage .f5 .bg{
+    height: 50%;
+    width: 100%;
+    background-color: #888;
+    position: absolute;
+    z-index: 2;
+    transition: all 2s;
+}
+#fullpage .f5 .b1{
+    left: 0;
+    top: -100px;
+}
+#fullpage .f5 .b2{
+    bottom: -100px;
+    left: 0;
+}
+#fullpage .f5 .b1.a{
+    top: 0;
+}
+#fullpage .f5 .b2.a{
+    bottom: 0;
+}
+#fullpage .f5 .text5{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -100px;
+    background-color: #fff;
+    z-index: 1;
+}
+#fullpage .f5 .text5 a{
+    font-size: 40px;
+    line-height: 200px;
+    color: #000;
+    opacity: 1;
+    transition: all 1s 2s;
+}
+#fullpage .f5 .text5 .a{
+    opacity: 0;
+}
+

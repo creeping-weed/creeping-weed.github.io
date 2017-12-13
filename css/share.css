@@ -1,0 +1,605 @@
+body{
+    background-color: #ccc;
+}
+.main{
+    background-color: #ddd;
+}
+.main h2{
+    height: 35px;
+    line-height: 35px;
+    font-size: 22px;
+    padding-left: 25px;
+    position: relative;
+    color: red;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+.main h2 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    font-size: 25px;
+    width: 25px;
+    line-height: 35px;
+    color: #393;
+}
+.main .left {
+    float: left;
+    width: 835px;
+    /*height: 1508px;*/
+    margin-right: 15px;
+    /*background-color: pink;*/
+}
+.main .left h2 {
+    height: 40px;
+    width: 1300px;
+    font-weight: bold;
+    color: red;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px dashed #bbb;
+    /*border-radius: 12px 12px 0 0;*/
+}
+.main .left .stick{
+    /*height: 250px;*/
+    /*width: 1260px;*/
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 20px 20px 0 20px;
+}
+.main .left .stick .dt {
+    height: 24px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+.main .left .stick .dt img {
+    float: left;
+    margin-right: 10px;
+}
+.main .left .stick .dt h3{
+    font: 800 20px/24px "Microsoft YaHei";
+    float: left;
+}
+.main .left .stick .dd {
+    /*height: 200px;*/
+    /*width: 1260px;*/
+    padding-top: 16px;
+}
+.main .left .stick .dd div {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 20px 30px;
+    position: relative;
+}
+.main .left .stick .dd div a:hover img{
+    width: 199px;
+}
+.main .left .stick .dd .box6 a:hover img{
+    width: 209px;
+}
+.main .left .stick .dd div h4 {
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 42px;
+}
+.main .left .stick .dd div p {
+    margin-top: 5px;
+    line-height: 16px;
+    font-size: 12px;
+}
+.main .left .stick .dd .box1 i {
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .left .stick .dd .box2 i {
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .left .stick .dd .box3 i {
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .left .stick .dd .box4 i {
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .left .stick .dd .box5 i {
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .left .stick .dd .box6 i {
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .left .tour {
+    /*height: 230px;*/
+    /*width: 1260px;*/
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 20px 20px 5px 20px;
+    overflow: hidden;
+}
+.main .left .tour .dt {
+    height: 24px;
+    /*width: 1260px;*/
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    position: relative;
+}
+.main .left .tour .dt img {
+    float: left;
+    margin-right: 10px;
+}
+.main .left .tour .dt h3{
+    font: 800 20px/24px "Microsoft YaHei";
+    float: left;
+}
+.main .left .tour .dt .opt {
+    float: left;
+    width: 120px;
+    height: 21px;
+    /*background-color: red;*/
+    position: absolute;
+    top: 13px;
+    left: 172px;
+}
+.main .left .tour .dt .opt span {
+    float: left;
+    height: 20px;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main .left .tour .dt .opt span.cr{
+    color: green;
+    border-bottom: 1px solid red;
+}
+.main .left .tour .dd {
+    height: 190px;
+    /*width: 1260px;*/
+    padding-top: 5px;
+    display: none;
+    /*margin-bottom: 30px;*/
+    /*background-color: green;*/
+}
+.main .left .tour .dd.show{
+    display: block;
+}
+.main .left .tour .dd div {
+    float: left;
+    height: 190px;
+    width: 200px;
+    margin: 20px 30px;
+    /*background-color: red;*/
+    position: relative;
+}
+.main .left .tour .dd div a:hover img {
+    width: 199px;
+}
+.main .left .tour .dd .box6 a:hover img{
+    width: 209px;
+}
+.main .left .tour .dd div h4 {
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main .left .multiple {
+    /*width: 1260px;*/
+    /*height: 310px;*/
+    margin-bottom: 5px;
+    padding: 20px 5px;
+    background-color: #fff;
+}
+.main .left .multiple .dt {
+    height: 24px;
+    /*width: 1260px;*/
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+.main .left .multiple .dt img {
+    float: left;
+    margin-right: 10px;
+}
+.main .left .multiple .dt h3{
+    font: 800 20px/24px "Microsoft YaHei";
+    float: left;
+}
+.main .left .multiple .dd .letter {
+    /*height: 255px;*/
+    /*width: 400px;*/
+    /*background-color: #eee;*/
+    margin-right: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.main .left .multiple .dd .letter .top {
+    height: 45px;
+    width: 400px;
+    background-color: #3c6;
+}
+.main .left .multiple .dd .letter .top h4 {
+    font: 800 16px/45px "Microsoft YaHei";
+    margin-left: 20px;
+    float: left;
+    color: white;
+}
+.main .left .multiple .dd .letter .top a {
+    float: right;
+    line-height: 45px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight:bold;
+    /*background-color: #fff;*/
+}
+.main .left .multiple .dd .letter .down {
+    height: 200px;
+    width: 390px;
+    padding: 5px;
+    background-color: #eee;
+}
+.main .left .multiple .dd .letter .down .left {
+    float: left;
+    width: 125px;
+    height: 200px;
+    margin-right: 5px;
+    background-color: #fff;
+}
+.main .left .multiple .dd .letter .down .left .box1 {
+    height: 120px;
+    width: 125px;
+}
+.main .left .multiple .dd .letter .down .left .box1 h5 {
+    line-height: 40px;
+    font-size: 20px;
+}
+.main .left .multiple .dd .letter .down .left .box1 .p1 {
+    font-size: 16px;
+    line-height: 18px;
+}
+.main .left .multiple .dd .letter .down .left .box1 p {
+    line-height: 50px;
+    font-size: 14px;
+    color: red;
+}
+.main .left .multiple .dd .letter .down .left .box2 {
+    text-align: center;
+}
+
+.main .left .multiple .dd .letter .down .right {
+    float: left;
+    width: 260px;
+    height: 200px;
+    /*background-color: green;*/
+}
+.main .left .multiple .dd .letter .down .right li{
+    height: 99px;
+    width: 129px;
+    float: left;
+    background-color: #fff;
+}
+.main .left .multiple .dd .letter .down .right .l1 {
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    background-color: #fff;
+}
+.main .left .multiple .dd .letter .down .right li h5 {
+    height: 20px;
+    width: 129px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.main .left .multiple .dd .letter .down .right li p {
+    width: 29px;
+    font-size: 14px;
+    margin: 10px 0 0 10px;
+    float: left;
+}
+.main .left .multiple .dd .letter .down .right li img {
+    margin-right:10px;
+    float: right;
+}
+.main .left .multiple .dd .letter .down .right li a {
+    display: block;
+    height: 99px;
+    width: 129px;
+}
+.main .left .multiple .dd .letter .down .right .l1 a:hover img {
+    margin-right: 20px;
+}
+.main .left .multiple .dd .letter .down .right .l4 a:hover img {
+    margin-right: 20px;
+}
+.main .left .multiple .dd .letter .down .right .l2 {
+    border-bottom: 1px solid #999;
+    background-color: #ffd;
+}
+.main .left .multiple .dd .letter .down .right .l3 {
+    border-right: 1px solid #999;
+    background-color: #ddd;
+}
+.main .left .multiple .dd .apply{
+    /*height: 255px;*/
+    /*width: 400px;*/
+    /*margin-left: 20px;*/
+    margin-top: 10px;
+    background-color: blue;
+    float: left;
+}
+.main .left .multiple .dd .apply .top {
+    height: 45px;
+    width: 400px;
+    background-color: #9c6;
+}
+.main .left .multiple .dd .apply .top h4 {
+    font: 800 16px/45px "Microsoft YaHei";
+    margin-left: 20px;
+    float: left;
+    color: white;
+}
+.main .left .multiple .dd .apply .top a {
+    float: right;
+    line-height: 45px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight:bold;
+    /*background-color: #fff;*/
+}
+.main .left .multiple .dd .apply .down {
+    width: 390px;
+    height: 200px;
+    padding: 5px;
+    background-color: #eee;
+}
+.main .left .multiple .dd .apply .down .hoot {
+    width: 390px;
+    height: 135px;
+}
+.main .left .multiple .dd .apply .down .hoot .dt {
+    width: 390px;
+    height: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ddd;
+}
+.main .left .multiple .dd .apply .down .hoot .dt img {
+    height: 20px;
+    width: 16px;
+    margin-right: 5px;
+    float: left;
+}
+.main .left .multiple .dd .apply .down .hoot .dt h5 {
+    line-height: 20px;
+    color: #f00;
+}
+.main .left .multiple .dd .apply .down .hoot .dd {
+    height: 105px;
+    width: 390px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+.main .left .multiple .dd .apply .down .hoot .dd .kugou {
+    height: 105px;
+    width: 195px;
+    float: left;
+    /*background-color: #ccc;*/
+}
+.main .left .multiple .dd .apply .down .hoot .dd .kugou .ico {
+    width: 56px;
+    float: left;
+    padding: 10px 0 0 5px;
+}
+.main .left .multiple .dd .apply .down .hoot .dd .kugou .ico p {
+    margin: 4px 0 0 5px;
+}
+.main .left .multiple .dd .apply .down .hoot .dd .kugou .text {
+    float: left;
+    width: 134px;
+    height: 100px;
+    padding-top: 5px;
+    /*background-color: red;*/
+
+}
+.main .left .multiple .dd .apply .down .hoot .dd .qq {
+    height: 105px;
+    width: 195px;
+    float: left;
+}
+.main .left .multiple .dd .apply .down .hoot .dd .qq .ico {
+    width: 56px;
+    float: left;
+    padding: 10px 0 0 5px;
+}
+.main .left .multiple .dd .apply .down .hoot .dd .qq .ico p {
+    margin: 4px 0 0 9px;
+}
+.main .left .multiple .dd .apply .down .hoot .dd .qq .text {
+    float: left;
+    width: 134px;
+    height: 100px;
+    padding-top: 5px;
+    /*background-color: red;*/
+}
+.main .left .multiple .dd .apply .down .hoot .text a {
+    color: green;
+}
+.main .left .multiple .dd .apply .down .hoot .text a:hover {
+    color: #C81623;
+}
+.main .left .multiple .dd .apply .down .other .dt {
+    width: 390px;
+    height: 20px;
+    padding: 2px 0 2px 0;
+    border-bottom: 1px solid #ddd;
+}
+.main .left .multiple .dd .apply .down .other .dt h5 {
+    line-height: 20px;
+    margin-left: 5px;
+}
+.main .left .multiple .dd .apply .down .other .dd {
+    width: 390px;
+    height: 40px;
+    background-color: #fff;
+}
+.main .left .multiple .dd .apply .down .other .dd li {
+    width: 50px;
+    height: 40px;
+    margin-left: 15px;
+    float: left;
+}
+.main .left .multiple .dd .apply .down .other .dd li a:hover img {
+    width: 45px;
+}
+.main .right {
+    float: left;
+    width: 250px;
+    position: relative;
+    /*height: 1508px;*/
+    /*background-color: #87ceeb;*/
+}
+.main .right .position {
+    height: 80px;
+    background-color: #eee;
+    position: relative;
+    margin: 15px 0;
+
+}
+.main .right .position h3 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 5px;
+    border-left: 2px solid green;
+    color: #000;
+    background-color: #ddd;
+}
+.main .right .position p {
+    font-size: 18px;
+    line-height: 30px;
+    height: 30px;
+    padding: 10px 0 10px 30px;
+}
+.main .right .position p a{
+    font-size: 18px;
+    line-height: 30px;
+    height: 30px;
+    color: green;
+}
+.main .right .position p span {
+    width: 22px;
+    height: 26px;
+    background: url("../images/spirit.png") -68px -16px no-repeat;
+    position: absolute;
+    top: 42px;
+    left: 4px;
+}
+.main .right .trends {
+    width: 250px;
+    height: 300px;
+    background-color: #eee;
+    margin-bottom: 15px;
+}
+.main .right .trends h3 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 5px;
+    border-left: 2px solid yellow;
+    color: #000;
+    background-color: #ddd;
+}
+.main .right .trends .trendsbox {
+    width: 250px;
+    height: 250px;
+    padding: 10px 0;
+}
+.main .right .trends .trendsbox p {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    text-indent: 2em;
+}
+.main .right .tag {
+    width: 250px;
+    /*height: 250px;*/
+    background-color: #eee;
+    margin-bottom: 15px;
+}
+.main .right .tag h3 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 5px;
+    border-left: 2px solid #00ffff;
+    color: #000;
+    background-color: #ddd;
+}
+.main .right .tag ul{
+    width: 250px;
+    padding: 10px 0;
+}
+.main .right .tag ul li{
+    float: left;
+    height: 30px;
+    margin: 5px 10px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.main .right .tag ul li a{
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    color: #ccc;
+    background-color: #666;
+    transition: all 0.5s;
+}
+.main .right .tag ul li a.red{
+    background-color: darkred;
+}
+.main .right .tag ul li a.green{
+    background-color: darkgreen;
+}
+.main .right .tag ul li a:hover{
+    border-radius: 25px 0;
+    background-color: deeppink;
+}
+.bottom{
+    background-color: #000;
+    height: 50px;
+    margin-top: 20px;
+}
+.bottom p{
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+}

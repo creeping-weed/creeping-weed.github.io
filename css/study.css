@@ -1,0 +1,285 @@
+body{
+    background-color: #ccc;
+}
+.main{
+    background-color: #ddd;
+}
+.main h2{
+    height: 35px;
+    line-height: 35px;
+    font-size: 22px;
+    padding-left: 25px;
+    position: relative;
+    color: red;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+.main h2 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    font-size: 25px;
+    width: 25px;
+    line-height: 35px;
+    color: #393;
+}
+.main .left {
+    float: left;
+    width: 835px;
+    /*height: 1508px;*/
+    margin-right: 15px;
+}
+.main .left .hot {
+    width: 835px;
+    margin-bottom: 20px;
+}
+.main .left .hot .hotBox{
+    margin-top: 20px;
+}
+.main .left .hot .hotBox ul{
+
+}
+.main .left .hot .hotBox ul .text{
+    height: 200px;
+    width: 813px;
+    padding: 10px;
+    background-color: #fff;
+    border-left: 2px solid #fff;
+    position: relative;
+    margin-bottom: 20px;
+}
+.main .left .hot .hotBox ul .text:hover{
+    border-left: 2px solid #C81623;
+}
+.main .left .hot .hotBox ul .text .img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.main .left .hot .hotBox ul .text .img a{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-image: url("../images/text1.jpg");
+    transition: transform 1s;
+}
+.main .left .hot .hotBox ul .text .img a:hover{
+    transform: scale(1.4,1.4);
+}
+.main .left .hot .hotBox ul .text .content{
+    height: 200px;
+    width: 600px;
+    float: right;
+}
+.main .left .hot .hotBox ul .text .content:hover h4 a{
+    left: 150px;
+}
+.main .left .hot .hotBox ul .text .content h4{
+    line-height: 30px;
+    height: 30px;
+    position: relative;
+}
+.main .left .hot .hotBox ul .text .content h4 a{
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 1s;
+}
+.main .left .hot .hotBox ul .text .content h4 a:hover{
+    color: green;
+}
+.main .left .hot .hotBox ul .text .content .center{
+    height: 130px;
+    margin: 5px 0;
+}
+.main .left .hot .hotBox ul .text .content .center p{
+    line-height: 24px;
+    font-size: 16px;
+}
+.main .left .hot .hotBox ul .text .content .center p a{
+    font-size: 20px;
+    color: #000;
+}
+.main .left .hot .hotBox ul .text .content .time{
+    height: 30px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.main .left .hot .hotBox ul .text .content .time span{
+    font-size: 14px;
+    margin: 0 2px;
+}
+.main .left .hot .hotBox ul .text .content .time a{
+    font-size: 14px;
+    color: red;
+    margin-left: 15px;
+}
+.main .left .hot .hotBox ul .text .tab{
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: #222;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #ccc;
+}
+.main .left .math{
+    height: 50px;
+    width: 835px;
+    background-color: #fff;
+}
+.main .left .math ul{
+    height: 30px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.main .left .math ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 10px;
+}
+.main .left .math ul li a{
+    display: block;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 6px;
+    color: #000;
+}
+.main .left .math ul li a:hover{
+    background-color: pink;
+}
+.main .right {
+    float: left;
+    width: 250px;
+    position: relative;
+    /*height: 1508px;*/
+    /*background-color: #87ceeb;*/
+}
+.main .right .position {
+    height: 80px;
+    background-color: #eee;
+    position: relative;
+    margin: 15px 0;
+
+}
+.main .right .position h3 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 5px;
+    border-left: 2px solid green;
+    color: #000;
+    background-color: #ddd;
+}
+.main .right .position p {
+    font-size: 18px;
+    line-height: 30px;
+    height: 30px;
+    padding: 10px 0 10px 30px;
+}
+.main .right .position p a{
+    font-size: 18px;
+    line-height: 30px;
+    height: 30px;
+    color: green;
+}
+.main .right .position p span {
+    width: 22px;
+    height: 26px;
+    background: url("../images/spirit.png") -68px -16px no-repeat;
+    position: absolute;
+    top: 42px;
+    left: 4px;
+}
+.main .right .trends {
+    width: 250px;
+    height: 300px;
+    background-color: #eee;
+    margin-bottom: 15px;
+}
+.main .right .trends h3 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 5px;
+    border-left: 2px solid yellow;
+    color: #000;
+    background-color: #ddd;
+}
+.main .right .trends .trendsbox {
+    width: 250px;
+    height: 250px;
+    padding: 10px 0;
+}
+.main .right .trends .trendsbox p {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    text-indent: 2em;
+}
+.main .right .tag {
+    width: 250px;
+    /*height: 250px;*/
+    background-color: #eee;
+    margin-bottom: 15px;
+}
+.main .right .tag h3 {
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 5px;
+    border-left: 2px solid #00ffff;
+    color: #000;
+    background-color: #ddd;
+}
+.main .right .tag ul{
+    width: 250px;
+    padding: 10px 0;
+}
+.main .right .tag ul li{
+    float: left;
+    height: 30px;
+    margin: 5px 10px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.main .right .tag ul li a{
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    color: #ccc;
+    background-color: #666;
+    transition: all 0.5s;
+}
+.main .right .tag ul li a.red{
+    background-color: darkred;
+}
+.main .right .tag ul li a.green{
+    background-color: darkgreen;
+}
+.main .right .tag ul li a:hover{
+    border-radius: 25px 0;
+    background-color: deeppink;
+}
+.bottom{
+    background-color: #000;
+    height: 50px;
+    margin-top: 20px;
+}
+.bottom p{
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+}

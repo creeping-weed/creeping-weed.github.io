@@ -1,0 +1,135 @@
+.jd_box{
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    position: absolute;
+}
+.jd_box .top_bar{
+    width: 100%;
+    height: 45px;
+    background: url("../images/header-bg.png") repeat-x;
+    background-size: 1px 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.jd_box .top_bar a{
+    width: 40px;
+    height: 44px;
+    background: url("../images/sprites.png");
+    background-size: 200px 200px;
+    padding: 12px 10px;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+.jd_box .top_bar a.icon_back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: -20px 0;
+}
+.jd_box .top_bar a.icon_menu{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position: -60px 0;
+}
+.jd_box .top_bar form{
+    width: 100%;
+    height: 35px;
+    padding: 5px 40px;
+}
+.jd_box .top_bar form input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding-left: 6px;
+}
+.jd_box .cate{
+    height: 100%;
+    width: 100%;
+    padding-top: 45px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.jd_box .cate .cate_left{
+    width: 90px;
+    height: 100%;
+    float: left;
+}
+.jd_box .cate .cate_left ul{
+    width: 100%;
+}
+.jd_box .cate .cate_left ul li{
+    width: 100%;
+    height: 50px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #f3f4f6;
+}
+.jd_box .cate .cate_left ul li.now{
+    border-right: none;
+    background-color: #fff;
+}
+.jd_box .cate .cate_left ul li.now a{
+    color: red;
+}
+.jd_box .cate .cate_left ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+    color: #666;
+}
+.jd_box .cate .cate_right{
+    overflow: hidden;
+    height: 100%;
+}
+.jd_box .cate .cate_right .box{
+    width: 100%;
+    padding-left: 10px;
+}
+.jd_box .cate .cate_right .box .banner{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+.jd_box .cate .cate_right .box .banner img{
+    width: 100%;
+}
+.jd_box .cate .cate_right .box .cate_box{
+    width: 100%;
+
+}
+.jd_box .cate .cate_right .box .cate_box h3{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.jd_box .cate .cate_right .box .cate_box ul{
+    width: 100%;
+}
+.jd_box .cate .cate_right .box .cate_box ul li{
+    width: 33.3333%;
+    float: left;
+    margin: 5px 0;
+}
+.jd_box .cate .cate_right .box .cate_box ul li a{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.jd_box .cate .cate_right .box .cate_box ul li a img{
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+.jd_box .cate .cate_right .box .cate_box ul li a p{
+    line-height: 20px;
+    font-size: 14px;
+}
